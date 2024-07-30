@@ -1,3 +1,9 @@
-<%- include("./partials/navbar") %> <%- include("./partials/head") %> <%-
-include("./partials/main", {name, description, history, places, trivia}) %> <%-
-include("./partials/footer") %>
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head") %>
+  <body>
+    <%- include("./partials/navbar") %> <%- include("./partials/main", {name,
+    description, history, places, trivia}) %> <%- include("./partials/footer")
+    %>
+  </body>
+</html>

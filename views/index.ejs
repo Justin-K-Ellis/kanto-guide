@@ -1,27 +1,30 @@
-<%- include("./partials/head") %>
-<body>
-  <%- include("./partials/navbar") %>
-
-  <main>
-    <div class="hero bg-base-200 min-h-screen">
-      <div class="hero-content flex-col lg:flex-row">
-        <img
-          src="./img/tokyo_tower.jpg"
-          class="max-w-sm rounded-lg shadow-2xl"
-        />
-        <div>
-          <h1 class="text-5xl font-bold">The Kanto Guide</h1>
-          <p class="py-6">
-            New to the Kanto area? Learn about Tokyo, Kanagawa, Chiba, and
-            Saitama here. Experience the full range of what Greater Tokyo has to
-            offer.
-          </p>
-          <button class="btn btn-primary"><a href="/tokyo">Start with Tokyo</a></button>
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head") %>
+  <body>
+    <%- include("./partials/navbar") %>
+    <main>
+      <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+          <img
+            src="./img/tokyo_tower.jpg"
+            class="max-w-sm rounded-lg shadow-2xl"
+          />
+          <div>
+            <h1 class="text-5xl font-bold">The Kanto Guide</h1>
+            <p class="py-6">
+              New to the Kanto area? Learn about Tokyo, Kanagawa, Chiba, and
+              Saitama here. Experience the full range of what Greater Tokyo has
+              to offer.
+            </p>
+            <button class="btn btn-primary">
+              <a href="/tokyo">Start with Tokyo</a>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <%- include("./partials/footer.ejs") %>
-</body>
+    <%- include("./partials/footer.ejs") %>
+  </body>
 </html>
