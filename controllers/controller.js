@@ -44,10 +44,16 @@ const renderSaitama = (req, res) => {
   });
 };
 
+const send404 = (req, res) => {
+  res.status(404);
+  res.render("404");
+};
+
 module.exports = {
   renderIndex,
   renderTokyo,
   renderKanagawa,
   renderChiba,
   renderSaitama,
+  send404,
 };
