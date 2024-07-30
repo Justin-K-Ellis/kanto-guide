@@ -1,5 +1,6 @@
 const prefectures = {
   tokyo: {
+    name: "Tokyo",
     description:
       "Tokyo, Japan's capital and most populous city, is a dynamic metropolis known for its vibrant culture, cutting-edge technology, and historic landmarks. As a global economic powerhouse, Tokyo seamlessly blends tradition with modernity, offering a diverse array of experiences from serene temples to bustling shopping districts. The city is an epicenter of fashion, entertainment, and culinary excellence, drawing millions of visitors each year.",
     history:
@@ -18,6 +19,7 @@ const prefectures = {
     ],
   },
   kanagawa: {
+    name: "Kanagawa",
     description:
       "Kanagawa Prefecture, located just south of Tokyo, is known for its beautiful coastal scenery, historical sites, and vibrant cities. Its proximity to Tokyo makes it a popular destination for both tourists and residents seeking a blend of urban and natural attractions. Kanagawa features a mix of modern cities like Yokohama and scenic spots such as Hakone and Enoshima Island.",
     history:
@@ -36,6 +38,7 @@ const prefectures = {
     ],
   },
   chiba: {
+    name: "Chiba",
     description:
       "Chiba Prefecture, located to the east of Tokyo, is renowned for its extensive coastline, historical sites, and bustling port city of Chiba. Known for its diverse attractions, Chiba offers everything from theme parks and beaches to cultural landmarks and nature reserves. The prefecture is an important commercial hub and a gateway to the scenic Boso Peninsula.",
     history:
@@ -54,6 +57,7 @@ const prefectures = {
     ],
   },
   saitama: {
+    name: "Saitama",
     description:
       "Saitama Prefecture, located just north of Tokyo, is a largely residential area that provides a balance of urban and natural environments. With its proximity to the capital, Saitama offers a more relaxed atmosphere compared to the bustling city, featuring scenic parks, historical sites, and charming local neighborhoods.",
     history:
