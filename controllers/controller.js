@@ -4,7 +4,15 @@ const renderIndex = (req, res) => {
   res.render("index");
 };
 
-const renderTokyo = (req, res) => {};
+const renderTokyo = (req, res) => {
+  res.render("tokyo", {
+    name: prefectures.tokyo.name,
+    description: prefectures.tokyo.description,
+    history: prefectures.tokyo.history,
+    places: prefectures.tokyo.places,
+    trivia: prefectures.tokyo.trivia,
+  });
+};
 
 const renderKanagawa = (req, res) => {};
 
