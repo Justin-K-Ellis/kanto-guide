@@ -1,12 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Guide to Kanto</title>
-  </head>
-  <body>
-    <%- include("./partials/navbar") %>
-  </body>
+<%- include("./partials/head") %>
+<body>
+  <%- include("./partials/navbar") %>
+
+  <main>
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content flex-col lg:flex-row">
+        <img
+          src="./img/tokyo_tower.jpg"
+          class="max-w-sm rounded-lg shadow-2xl"
+        />
+        <div>
+          <h1 class="text-5xl font-bold">The Kanto Guide</h1>
+          <p class="py-6">
+            New to the Kanto area? Learn about Tokyo, Kanagawa, Chiba, and
+            Saitama here. Experience the full range of what Greater Tokyo has to
+            offer.
+          </p>
+          <button class="btn btn-primary">Start with Tokyo</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
 </html>
