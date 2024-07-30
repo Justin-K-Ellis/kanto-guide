@@ -1,6 +1,8 @@
 const prefectures = require("../models/data.js");
 
-const renderIndex = (req, res) => {};
+const renderIndex = (req, res) => {
+  res.render("index");
+};
 
 const renderTokyo = (req, res) => {};
 
