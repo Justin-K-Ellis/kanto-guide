@@ -14,11 +14,35 @@ const renderTokyo = (req, res) => {
   });
 };
 
-const renderKanagawa = (req, res) => {};
+const renderKanagawa = (req, res) => {
+  res.render("kanagawa", {
+    name: prefectures.kanagawa.name,
+    description: prefectures.kanagawa.description,
+    history: prefectures.kanagawa.history,
+    places: prefectures.kanagawa.places,
+    trivia: prefectures.kanagawa.trivia,
+  });
+};
 
-const renderChiba = (req, res) => {};
+const renderChiba = (req, res) => {
+  res.render("chiba", {
+    name: prefectures.chiba.name,
+    description: prefectures.chiba.description,
+    history: prefectures.chiba.history,
+    places: prefectures.chiba.places,
+    trivia: prefectures.chiba.trivia,
+  });
+};
 
-const renderSaitama = (req, res) => {};
+const renderSaitama = (req, res) => {
+  res.render("saitama", {
+    name: prefectures.saitama.name,
+    description: prefectures.saitama.description,
+    history: prefectures.saitama.history,
+    places: prefectures.saitama.places,
+    trivia: prefectures.saitama.trivia,
+  });
+};
 
 module.exports = {
   renderIndex,
