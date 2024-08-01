@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node run app.js",
     "dev": "node --watch app.js",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
   },
