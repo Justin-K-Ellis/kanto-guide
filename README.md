@@ -14,6 +14,10 @@ Clone the repo, and from the root folder, use:
 npm install
 ```
 
+## Live site
+
+Live version [here](https://kanto-guide.onrender.com/).
+
 ## Photo Credit
 
 Photo of Tokyo tower and surounding area by <a href="https://unsplash.com/@skies457?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Di Weng</a> on <a href="https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-kEkU25KfCms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.
