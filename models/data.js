@@ -2,7 +2,7 @@ const prefectures = {
   tokyo: {
     name: "Tokyo",
     description:
-      "Tokyo, Japan's capital and most populous city, is a dynamic metropolis known for its vibrant culture, cutting-edge technology, and historic landmarks. As a global economic powerhouse, Tokyo seamlessly blends tradition with modernity, offering a diverse array of experiences from serene temples to bustling shopping districts. The city is an epicenter of fashion, entertainment, and culinary excellence, drawing millions of visitors each year.",
+      "Tokyo is Japan's capital and most populous city, known for its vibrant culture, cutting-edge technology, and historic landmarks. As a global economic powerhouse, Tokyo seamlessly blends tradition with modernity, offering a diverse array of experiences from serene temples to bustling shopping districts. The city is an epicenter of fashion, entertainment, and culinary excellence, drawing millions of visitors each year.",
     history:
       "Tokyo's history dates back to the early 17th century when Tokugawa Ieyasu, the founder of the Tokugawa shogunate, established Edo as the center of political power. Before that, the area was a small fishing village. Edo grew rapidly during the Edo period (1603-1868), becoming one of the largest cities in the world. The name was changed to Tokyo, meaning 'Eastern Capital,' when the imperial capital was moved there from Kyoto in 1868. Since then, Tokyo has evolved into a major international city and a symbol of modern Japan.",
     places: [
